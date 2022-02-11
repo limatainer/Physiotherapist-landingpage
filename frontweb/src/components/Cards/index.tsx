@@ -11,8 +11,8 @@ export default function Cards() {
           <div className="card bloby">
             <img src={needle} className="card-img-top" alt="needle" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 className="card-title">Dry Needling</h5>
+              <p className="card-text">This treatment emphasizes prevention and healing of injuries to the muscles and tendons and can be beneficial for people with injuries, chronic pain or restricted range of motion</p>
             </div>
           </div>
         </div>
@@ -20,8 +20,8 @@ export default function Cards() {
           <div className="card bloby">
             <img src={massage} className="card-img-top" alt="needle" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 className="card-title">Sports Massage</h5>
+              <p className="card-text">This is a neurophysiological evidence-based treatment technique that requires effective manual assessment of the neuromuscular system</p>
             </div>
           </div>
         </div>
@@ -29,8 +29,8 @@ export default function Cards() {
           <div className="card bloby">
             <img src={redball} className="card-img-top" alt="needle" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 className="card-title">Injury Rehab</h5>
+              <p className="card-text">Rehabilitation involves an individualised sport-specific related assessment and treatment approach with the goal of returning the athlete to competition and prevent further injury over time</p>
             </div>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function Cards() {
           <div className="card bloby">
             <img src={pilatos} className="card-img-top" alt="needle" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 className="card-title">Pilates</h5>
+              <p className="card-text">Recover your body get in shape and make it stronger</p>
             </div>
           </div>
         </div>

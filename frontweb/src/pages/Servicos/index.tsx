@@ -1,11 +1,12 @@
 import Carroussel from 'components/Carroussel';
-import React from 'react';
-
+import './styles.css'
 export default function Servicos() {
   return (
-    <div className="container">
-      <br />
+    <>
       <Carroussel />
-    </div>
+      <br />
+      <h1>Why choose Marina</h1>
+      <br />
+    </>
   )
 }

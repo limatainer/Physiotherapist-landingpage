@@ -1,0 +1,122 @@
+.content {
+  position: relative;
+  z-index: 1;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: aliceblue;
+}
+
+.content svg {
+  padding-right: 100px;
+}
+
+.hero-contents {
+  padding-left: 50px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+/*plans*/
+
+.plans-container .text {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.plans-cards-container {
+  display: flex;
+}
+
+.plans-cards-container .plans-card {
+  padding: 30px 0px;
+  margin: 0px 15px;
+  width: 370px;
+  height: 470px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: .4s;
+  border-radius: 8px;
+}
+
+.plans-cards-container .plans-card:hover {
+  transform: translateY(-15px);
+  transition: .4s;
+}
+
+.plans-cards-container .plans-card .card-title {
+  font-size: 24px;
+}
+
+.plans-cards-container .plans-card .price {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.plans-cards-container .plans-card .price .value {
+  display: flex;
+}
+
+.plans-cards-container .plans-card .price .value span {
+  font-size: 20px;
+}
+
+.plans-cards-container .plans-card .price .value p {
+  font-size: 50px;
+  line-height: 48px;
+}
+
+.plans-cards-container .plans-card .text {
+  width: 300px;
+  margin: 0;
+  line-height: 25px;
+}
+
+.plans-cards-container .plans-card .button {
+  padding: 8px 80px;
+}
+
+.plans-cards-container .favorite .text .price {
+  color: black;
+
+}
+
+.plans-cards-container .favorite {
+  background-color: rgb(149, 248, 102);
+  position: relative;
+}
+
+
+.plans-cards-container .favorite .card-title {
+  font-size: 32px;
+  color: #fff;
+  transform: translateY(-20px);
+}
+
+.plans-cards-container .favorite .button-favorite {
+  top: 90px;
+  cursor: unset;
+  position: absolute;
+  background-color: aliceblue;
+  font-size: 14px;
+  padding: 5px 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.plans-cards-container .favorite .button:not(.button-favorite):hover {
+  background-color: gainsboro;
+  color: rgb(190, 185, 185);
+}

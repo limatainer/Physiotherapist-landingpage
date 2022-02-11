@@ -1,10 +1,14 @@
 .footer {
-  position: fixed;
+  margin-top: auto;
+}
+
+/* .footer {
   width: 100%;
   bottom: 0;
   color: white;
   font-size: 15px;
 }
+
 
 .conteudo {
   align-items: center;
@@ -12,3 +16,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.copyrighty {
+  background-color: rgba(0, 0, 0, 0.05);
+} */

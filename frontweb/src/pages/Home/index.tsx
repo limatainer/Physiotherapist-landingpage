@@ -7,26 +7,25 @@ import './styles.css';
 export default function Home() {
   return (
     <div className='container home-container'>
-      <h1>Home</h1>
+      <h1>Welcome to Marina Cousseiro's portal</h1>
       <br />
-      <button type="button" className='btn btn-primary whats'>
-        <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
-          target="_blank"> Whatsapp</a>
-      </button>
       <Bios />
       <br />
       <Cards />
       <br />
       <Card className="text-center">
-        <Card.Header>Featured</Card.Header>
+        <Card.Header>Have a treat and contact Marina now</Card.Header>
         <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
+          <Card.Title>Special personalized treatment</Card.Title>
           <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
+            Following all the right protocols of safety get your recovery with the hands of a professional with major experiences on the recovery field
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <button type="button" className='btn btn-primary whats'>
+            <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
+              target="_blank"> Whatsapp</a>
+          </button>
         </Card.Body>
-        <Card.Footer className="text-muted">2 days ago</Card.Footer>
+        <Card.Footer className="text-muted">Covid safe protocol</Card.Footer>
       </Card>
     </div>
   )

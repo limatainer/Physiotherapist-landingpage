@@ -8,19 +8,16 @@ import './styles.css'
 
 export default function Carroussel() {
   return (
-    <div className="container corpo">
-      <br />
-      <h1>Get in touch now</h1>
-      <br />
+    <>
       <Carousel fade>
-        <Carousel.Item>
+        <Carousel.Item className='carousel-item'>
           <img
             className="d-block w-100"
             src={pilatos}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
+          <Carousel.Caption className='carousel-caption'>
+            <h3>Pilates</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,7 +29,7 @@ export default function Carroussel() {
           />
 
           <Carousel.Caption >
-            <h3>Second slide label</h3>
+            <h3>Reabilitation</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -44,11 +41,11 @@ export default function Carroussel() {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>dry needling</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </>
   )
 }
