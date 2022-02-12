@@ -27,10 +27,10 @@ function Navbar() {
               <NavLink to="/" activeClassName="active" exact>HOME</NavLink>
             </li>
             <li>
-              <NavLink to="/servicos" activeClassName="active">SERVICES</NavLink>
+              <NavLink to="/servicos" activeClassName="active">SPECIALITY</NavLink>
             </li>
             <li>
-              <NavLink to="/detalhes" activeClassName="active">ABOUT</NavLink>
+              <NavLink to="/detalhes" activeClassName="active">SERVICES</NavLink>
             </li>
           </ul>
         </div>

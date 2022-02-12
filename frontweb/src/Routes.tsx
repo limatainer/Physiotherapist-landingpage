@@ -1,9 +1,9 @@
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
-import Detalhes from "pages/Detalhes";
+import Services from "pages/Servicis";
 
 import Home from "pages/Home";
-import Servicos from "pages/Servicos";
+import Speciality from "pages/Speciality";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -15,10 +15,10 @@ const Routes = () => (
         <Home />
       </Route>
       <Route path="/servicos" exact>
-        <Servicos />
+        <Speciality />
       </Route>
       <Route path="/detalhes">
-        <Detalhes />
+        <Services />
       </Route>
     </Switch>
     <Footer />

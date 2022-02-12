@@ -1,6 +1,6 @@
 import Carroussel from 'components/Carroussel';
 import './styles.css'
-export default function Servicos() {
+export default function Speciality() {
   return (
     <>
       <Carroussel />

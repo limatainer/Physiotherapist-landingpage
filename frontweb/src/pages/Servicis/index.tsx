@@ -1,7 +1,8 @@
+import Button from 'components/Button';
 import MiniCards from 'components/Cards/MiniCards'
 import { ReactComponent as PersonalTrainer } from '../../assets/img/undraw_personal_trainer_ote3.svg';
 import './styles.css';
-export default function Detalhes() {
+export default function Services() {
   return (
     <>
       <MiniCards />
@@ -9,12 +10,10 @@ export default function Detalhes() {
       <div className="content">
         <div className="container hero-contents">
           <h1 className="hero-title">
-            Professionalism,<br /> experience and responsability<br /> trusded by the bests
+            Professionalism,<br /> experience and responsability<br />
+            trusded by the bests
           </h1>
-          <button type="button" className='btn btn-primary whats'>
-            <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
-              target="_blank"> Whatsapp</a>
-          </button>
+          <Button />
         </div>
         <PersonalTrainer />
         <br />
