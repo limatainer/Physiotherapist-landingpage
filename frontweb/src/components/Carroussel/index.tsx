@@ -18,7 +18,7 @@ export default function Carroussel() {
           />
           <Carousel.Caption className='carousel-caption'>
             <h3>Pilates</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Get strength Get in shape Reduce your pain and gain healthy muscles too</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -30,7 +30,7 @@ export default function Carroussel() {
 
           <Carousel.Caption >
             <h3>Reabilitation</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>The main focus is to optimise patient function and well-being</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,7 +42,7 @@ export default function Carroussel() {
 
           <Carousel.Caption>
             <h3>dry needling</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <p>With needling we can treat muscle tissue get read of the pain so we can inactivate trigger points and restore you motor functions</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

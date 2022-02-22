@@ -25,7 +25,7 @@
 
 /*plans*/
 
-.plans-container .text {
+.plans-container h3 {
   margin-top: 20px;
   margin-bottom: 60px;
   text-align: center;
@@ -33,6 +33,7 @@
 
 .plans-cards-container {
   display: flex;
+  padding-left: 50px;
 }
 
 .plans-cards-container .plans-card {
@@ -40,7 +41,8 @@
   margin: 0px 15px;
   width: 370px;
   height: 470px;
-  background-color: aliceblue;
+  background-color: #d0f174;
+  background-image: linear-gradient(315deg, #e396f7 0%, #fae152 74%);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -94,7 +96,8 @@
 }
 
 .plans-cards-container .favorite {
-  background-color: rgb(149, 248, 102);
+  background-color: #96c8fb;
+  background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
   position: relative;
 }
 

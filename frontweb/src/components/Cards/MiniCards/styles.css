@@ -7,7 +7,6 @@
 .cardtitle {
   font-weight: bold;
   --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
   text-align: center;
 }
 
@@ -71,11 +70,11 @@
 .testimonials .item img {
   width: 100px;
   border-radius: 50%;
-  border: 13px solid #3b344d;
+  border: 5px solid #9A62FE;
 }
 
 .testimonials .item p {
-  color: #ddd;
+  color: rgb(28, 14, 78);
 }
 
 .testimonials .item h2 {
@@ -94,7 +93,7 @@
   width: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #413b52;
+  background-color: #413661;
   margin: 7px;
   transition: transform 0.2s, color 0.2s;
 }

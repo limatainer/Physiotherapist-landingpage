@@ -1,22 +1,15 @@
 .footer {
   margin-top: auto;
+  color: #fff;
 }
 
-/* .footer {
-  width: 100%;
-  bottom: 0;
-  color: white;
-  font-size: 15px;
+.footer span {
+  font-weight: 500;
+  font-size: 17px;
+
 }
 
-
-.conteudo {
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.icone-awesome {
+  width: 30px;
+  height: 30px;
 }
-
-.copyrighty {
-  background-color: rgba(0, 0, 0, 0.05);
-} */

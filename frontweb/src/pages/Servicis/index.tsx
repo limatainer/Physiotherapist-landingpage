@@ -11,7 +11,7 @@ export default function Services() {
         <div className="container hero-contents">
           <h1 className="hero-title">
             Professionalism,<br /> experience and responsability<br />
-            trusded by the bests
+            trusted by the bests
           </h1>
           <Button />
         </div>
@@ -19,73 +19,60 @@ export default function Services() {
         <br />
       </div>
       <section className="container plans-container">
-
-        <h3 className="title">
-          My Plans
+        <h3>
+          Please choose a plan and lets get in touch to make that body back on track again shall we?
         </h3>
-        <p className="text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia <br /> mi quis euismod ultrices.
+        <p>
+          Interested? Why not give a long term try? <br /> Here are my plans specially created for you
         </p>
         <div className="plans-cards-container">
           <div className="plans-card">
             <h4 className="card-title">
-              Silver
+              One time
             </h4>
             <div className="price">
               <div className="value">
                 <span>€</span>
                 <p>28</p>
               </div>
-              <p>/month</p>
             </div>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.
             </p>
-            <button type="button" className='btn btn-primary whats'>
-              <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
-                target="_blank"> Sign</a>
-            </button>
+            <Button />
           </div>
-
           <div className="plans-card favorite">
             <h4 className="card-title">
-              Metal
+              Monthly
             </h4>
-            <div className="button button-favorite">Preferido</div>
+            <div className="button button-favorite">Prefered</div>
             <div className="price">
               <div className="value">
                 <span>€</span>
-                <p>57</p>
+                <p>57*</p>
               </div>
-              <p>/month</p>
             </div>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.
+              *Once a Week or <br />
+              You can make it twice a week for more 10€
             </p>
-            <button type="button" className='btn btn-primary whats'>
-              <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
-                target="_blank"> Sign</a>
-            </button>
+            <Button />
           </div>
 
           <div className="plans-card">
             <h4 className="card-title">
-              Ouro
+              Evaluation
             </h4>
             <div className="price">
               <div className="value">
                 <span>€</span>
                 <p>94</p>
               </div>
-              <p>/month</p>
             </div>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.
             </p>
-            <button type="button" className='btn btn-primary whats'>
-              <a href="https://api.whatsapp.com/send?phone=3530899407383&text=Texto%20aqui"
-                target="_blank"> Sign</a>
-            </button>
+            <Button />
           </div>
         </div>
       </section>

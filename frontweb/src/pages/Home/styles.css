@@ -1,7 +1,7 @@
 .home-container {
-  margin-bottom: 100px;
-}
-
-.home-container h1 {
   text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(5, 5, 85);
 }

@@ -12,12 +12,14 @@ export default function Bios() {
       <div className="bio-detail">
         <h1>The best one in the field</h1>
         <br />
-        <p>With more the 10 years working proffesionally.
-          Experienced Physiotherapist, Dry Needling, Cupping, Fascial Manipulation,
-          Articular Manipulation, Rehabilitation, Sports Injuries & Sports / Deep Tissue Massage
-          Graduated in physiotherapy for 8 years <br />
-          and a 6-year postgraduate degree in Trauma and orthopedics in sports. He worked as a Physiotherapist and with sports massage at the 2016 Olympic and ParaOlympic Games. Specialized in the traditional Pilates method, floor and accessories for 7 years, and also in techniques such as fascial manipulation, dryneedling, joint manipulation with emphasis on the spine, Mulligan, <br />
-          in addition to experiences clinics in other approaches
+        <p>The PT Professional Marina Cousseiro is graduated in physiotherapy for 8 years.
+          and post-graduated in Trauma and Sports Orthopedics for 6 years. Her main experience for her career was the event of the Rio 2016 Olympic and ParaOlympic Games,
+          expanding her vision and experience as a Sports Physiotherapist at the sports venue and during the games, giving assistance to the athletes on the field or court, also with the
+          trainings and inside the service center for the athletes. , using as main tools some techniques such as Recovery Massage, Deep Tissue Liberation, Kinesiology Tape, Electronic
+          therapy machines, Mulligan, Fascial Mobilization in addition to other aspects to support the prevention and recovery of athletes.
+
+          The Physiotherapist Marina, is also specialized in the traditional Pilates method, floor and accessories for 7 years, and also in techniques such as fascial manipulation,
+          dryneedling, joint manipulation with emphasis on the spine, Mulligan, as well as clinical experiences in other approaches.
         </p>
       </div>
     </div>

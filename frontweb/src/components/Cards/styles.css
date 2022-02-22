@@ -5,4 +5,20 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 500px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-body h5, p {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-body h5 {
+  font-weight: 500;
+  background: rgb(4, 230, 192);
+  border-radius: 40%;
 }

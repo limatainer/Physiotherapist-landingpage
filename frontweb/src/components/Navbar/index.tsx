@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
         <Link to="/" className="nav-logo-text">
-          <h4>Physio Cousseiro</h4>
+          <h2>Physio Cousseiro</h2>
         </Link>
 
         <button
