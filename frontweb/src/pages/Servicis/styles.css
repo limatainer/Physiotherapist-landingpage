@@ -29,11 +29,25 @@
   margin-top: 20px;
   margin-bottom: 60px;
   text-align: center;
+  font-weight: 900;
 }
 
 .plans-cards-container {
   display: flex;
-  padding-left: 50px;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 30px;
+}
+
+@media (min-width:1400px) {
+  .plans-cards-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding-left: 50px;
+  }
 }
 
 .plans-cards-container .plans-card {
