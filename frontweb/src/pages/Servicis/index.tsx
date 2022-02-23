@@ -37,7 +37,7 @@ export default function Services() {
               </div>
             </div>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.
+              For a single treatment one time
             </p>
             <Button />
           </div>
@@ -70,7 +70,7 @@ export default function Services() {
               </div>
             </div>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.
+              Based on Marina's evaluation a treatment can be arranged for you
             </p>
             <Button />
           </div>
