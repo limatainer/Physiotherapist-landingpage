@@ -8,7 +8,7 @@ export default function Services() {
       <MiniCards />
       <br />
       <div className="content">
-        <div className="container hero-contents">
+        <div className="hero-contents">
           <h1 className="hero-title">
             Professionalism,<br /> experience and responsability<br />
             trusted by the bests
@@ -25,7 +25,7 @@ export default function Services() {
         <p>
           Interested? Why not give a long term try? <br /> Here are my plans specially created for you
         </p>
-        <div className="plans-cards-container">
+        <div className="container plans-cards-container">
           <div className="plans-card">
             <h4 className="card-title">
               One time
@@ -59,7 +59,7 @@ export default function Services() {
             <Button />
           </div>
 
-          <div className="plans-card">
+          <div className="container plans-card">
             <h4 className="card-title">
               Evaluation
             </h4>

@@ -16,31 +16,31 @@ export default function Carroussel() {
             src={pilatos}
             alt="First slide"
           />
-          <Carousel.Caption className='carousel-caption'>
+          <Carousel.Caption className='container carousel-caption'>
             <h3>Pilates</h3>
             <p>Get strength Get in shape Reduce your pain and gain healthy muscles too</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={redball}
             alt="Second slide"
           />
-
-          <Carousel.Caption >
+          <Carousel.Caption className='container carousel-caption'>
             <h3>Reabilitation</h3>
             <p>The main focus is to optimise patient function and well-being</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={needle}
             alt="Third slide"
           />
-
-          <Carousel.Caption>
+          <Carousel.Caption className='container carousel-caption'>
             <h3>dry needling</h3>
             <p>With needling we can treat muscle tissue get read of the pain so we can inactivate trigger points and restore you motor functions</p>
           </Carousel.Caption>
