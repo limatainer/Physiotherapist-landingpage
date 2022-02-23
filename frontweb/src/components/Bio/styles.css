@@ -2,44 +2,64 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 30px;
   color: rgb(9, 31, 51);
   border-radius: 30px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   background: linear-gradient(90deg, rgb(185, 196, 243) 4%, rgb(129, 230, 218) 27%, rgba(0, 172, 210, 1) 91%);
 }
 
-.marina-left {
-  text-align: center;
-  padding: 30px 10px 0 30px;
-}
-
-.marina-left p {
-  padding: 15px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.marina-left h1 {
-  font-weight: 700;
-  font-size: 30px;
-}
-
 .marina-left img {
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
-.bio-detail {
-  margin-left: 20px;
-  padding: 30px 10px 0 30px;
-  letter-spacing: 2px;
+@media(min-width:380px) {
+  .marina-left {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .marina-left h1 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .bio-detail {
+    padding-top: 20px;
+  }
+
+  .bio-detail h1 {
+    font-weight: 900;
+  }
 }
 
-.bio-detail h1 {
-  text-align: center;
-  font-weight: 700;
-}
+@media(min-width:1400px) {
+  .marina-left {
+    padding: 30px 10px 0 30px;
+  }
 
-.bio-detail p {
-  font-weight: 500;
+  .marina-left p {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .marina-left h1 {
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .bio-detail {
+    margin-left: 20px;
+    padding: 30px 10px 0 30px;
+    letter-spacing: 2px;
+  }
+
+  .bio-detail h1 {
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .bio-detail p {
+    font-weight: 500;
+  }
 }
