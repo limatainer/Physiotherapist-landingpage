@@ -1,6 +1,5 @@
 .bio-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   color: rgb(9, 31, 51);
   border-radius: 30px;
@@ -12,7 +11,12 @@
   border-radius: 50%;
 }
 
+
 @media(min-width:360px) {
+  .bio-container {
+    flex-direction: column;
+  }
+
   .marina-left {
     text-align: center;
     padding-top: 20px;
@@ -29,10 +33,16 @@
 
   .bio-detail h1 {
     font-weight: 900;
+    text-align: center;
   }
 }
 
 @media(min-width:1400px) {
+
+  .bio-container {
+    flex-direction: row;
+  }
+
   .marina-left {
     padding: 30px 10px 0 30px;
   }
@@ -46,6 +56,7 @@
   .marina-left h1 {
     font-weight: 900;
     font-size: 40px;
+    text-align: center;
   }
 
   .bio-detail {
