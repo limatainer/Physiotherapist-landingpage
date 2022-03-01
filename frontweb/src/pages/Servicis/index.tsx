@@ -26,20 +26,21 @@ export default function Services() {
           </h3>
           <p>
             Interested? Why not give a long term try? <br /> Here are my plans specially created for you
+            <br /> First sessions with evaluation are have duration of 1hr <br /> other sessions have 45mins
           </p>
           <div className="plans-cards-container">
             <div className="plans-card">
               <h4 className="card-title">
-                One time
+                First Session + Evaluation
               </h4>
               <div className="price">
                 <div className="value">
                   <span>€</span>
-                  <p>28</p>
+                  <p>50</p>
                 </div>
               </div>
               <p className="text">
-                For a single treatment one time
+                For a single treatment and after first session all others are 45€
               </p>
               <Button />
             </div>
@@ -51,12 +52,13 @@ export default function Services() {
               <div className="price">
                 <div className="value">
                   <span>€</span>
-                  <p>57*</p>
+                  <p>35*</p>
                 </div>
               </div>
               <p className="text">
-                *Once a Week or <br />
-                You can make it twice a week for more 10€
+                *4 sessions <br />
+                if more than a month has passed since the payment was made, the sessions will not be transferred to the following month,
+                <br /> unless there is a delicate reason that has been notified up to 2 hours in advance.
               </p>
               <Button />
             </div>
@@ -68,11 +70,11 @@ export default function Services() {
               <div className="price">
                 <div className="value">
                   <span>€</span>
-                  <p>94</p>
+                  <p>35</p>
                 </div>
               </div>
               <p className="text">
-                Based on Marina's evaluation a treatment can be arranged for you
+                Onse single evaluation that based on Marina's evaluation a treatment can be arranged for you
               </p>
               <Button />
             </div>
