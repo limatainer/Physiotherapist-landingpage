@@ -50,7 +50,7 @@ export default function Services() {
               </h4>
               <div className="button button-favorite">Prefered</div>
               <div className="price">
-                <div className="value">
+                <div className="value prefered">
                   <span>€</span>
                   <p>35*</p>
                 </div>
@@ -75,6 +75,7 @@ export default function Services() {
               </div>
               <p className="text">
                 Onse single evaluation that based on Marina's evaluation a treatment can be arranged for you
+                <br /> Duration is 35min
               </p>
               <Button />
             </div>
