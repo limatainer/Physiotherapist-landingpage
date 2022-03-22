@@ -4,7 +4,12 @@ import { ReactComponent as PersonalTrainer } from '../../assets/img/undraw_perso
 import './styles.css';
 export default function Services() {
   return (
-    <>
+    <div className='container'>
+      <div className="responsive-title">
+        <br />
+        <h1>Marina Cousseiro Phisio</h1>
+        <p>Make a Move</p>
+      </div>
       <MiniCards />
       <br />
       <div className="content">
@@ -83,6 +88,6 @@ export default function Services() {
         </section>
       </div>
       <br />
-    </>
+    </div>
   )
 }

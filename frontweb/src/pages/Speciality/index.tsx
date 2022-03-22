@@ -2,7 +2,7 @@ import Carroussel from 'components/Carroussel';
 import './styles.css'
 export default function Speciality() {
   return (
-    <>
+    <div className='container'>
       <Carroussel />
       <br />
       <div className="container-form">
@@ -14,6 +14,6 @@ export default function Speciality() {
         <p>By filling out this form you agree to have Marina to contact you back</p>
       </div>
 
-    </>
+    </div>
   )
 }
