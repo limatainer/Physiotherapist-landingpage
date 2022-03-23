@@ -5,14 +5,14 @@ import './styles.css';
 export default function Services() {
   return (
     <div className='container'>
-      <div className="responsive-title">
+      <div className="container responsive-title">
         <br />
         <h1>Marina Cousseiro Phisio</h1>
         <p>Make a Move</p>
       </div>
       <MiniCards />
       <br />
-      <div className="content">
+      <div className="container content">
         <div className="hero-contents">
           <h1 className="hero-title">
             Professionalism,<br /> experience and responsability<br />

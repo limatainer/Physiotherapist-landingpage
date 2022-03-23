@@ -1,3 +1,9 @@
+@media (min-width: 350px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
 .content {
   position: relative;
   z-index: 1;

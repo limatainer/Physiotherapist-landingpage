@@ -27,8 +27,6 @@
 
 .slider {
   width: 100%;
-
-  min-height: 385px;
 }
 
 .slider input {
@@ -279,6 +277,7 @@
   .responsive-title {
     visibility: visible;
     text-align: center;
+    font-weight: 700;
   }
 }
 
