@@ -30,6 +30,10 @@
   .bio-detail {
     padding-top: 20px;
   }
+  .bio-detail p{
+    font-weight: 400;
+    word-break: break-word;
+  }
 
   .bio-detail h1 {
     font-weight: 900;
@@ -43,19 +47,15 @@
     flex-direction: row;
   }
 
-  .marina-left {
-    padding: 30px 10px 0 30px;
-  }
-
   .marina-left p {
     padding: 15px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .marina-left h1 {
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -71,6 +71,7 @@
   }
 
   .bio-detail p {
-    font-weight: 500;
+    font-weight: 400;
+    word-break: break-word;
   }
 }
